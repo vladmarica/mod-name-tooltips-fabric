@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "mod-name-tooltips-fabric",
+	"version": "${version}",
+	"name": "Mod Name Tooltips",
+	"description": "A mod that simply shows mod names in item tooltips",
+	"authors": [
+		"Quintinity"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mod-name-tooltips-fabric/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.vladmarica.modnametooltips.ModNameTooltips"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}

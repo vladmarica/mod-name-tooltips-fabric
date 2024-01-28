@@ -32,6 +32,7 @@ public class ModNameItemTooltipCallback implements ItemTooltipCallback {
         Identifier id = Registry.ITEM.getId(stack.getItem());
         String modName = modIdToNameCache.getOrDefault(id.getNamespace(), StringUtils.capitalize(id.getNamespace()));
 
+        // Check that the mod name isn't already added to the tooltip by a different mod
         for (Text existingLine : lines) {
             if (modName.equals(existingLine.getString().trim())) {
                 return;

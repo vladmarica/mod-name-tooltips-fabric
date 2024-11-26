@@ -26,7 +26,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Include ModMenu in local runs for debugging purposes
-	modRuntimeOnly "maven.modrinth:modmenu:4.2.0-beta.2"
+	modRuntimeOnly "maven.modrinth:modmenu:6.3.1"
 }
 
 processResources {

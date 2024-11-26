@@ -4,18 +4,17 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.apache.commons.lang3.StringUtils;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class ModNameItemTooltipCallback implements ItemTooltipCallback {
-
     private static final Style STYLE = Style.EMPTY.withColor(Formatting.BLUE).withItalic(true);
 
     private final Map<String, String> modIdToNameCache;
@@ -29,7 +28,7 @@ public class ModNameItemTooltipCallback implements ItemTooltipCallback {
 
     @Override
     public void getTooltip(ItemStack stack, TooltipContext context, List<Text> lines) {
-        Identifier id = Registry.ITEM.getId(stack.getItem());
+        Identifier id = Registries.ITEM.getId(stack.getItem());
         String modName = modIdToNameCache.getOrDefault(id.getNamespace(), StringUtils.capitalize(id.getNamespace()));
 
         // Check that the mod name isn't already added to the tooltip by a different mod

@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.event.Event;
 import net.minecraft.util.Identifier;
 
 public class ModNameTooltips implements ClientModInitializer {
-
 	private final Identifier POST_DEFAULT_PHASE = new Identifier("modnametooltips", "postdefault");
 
 	@Override

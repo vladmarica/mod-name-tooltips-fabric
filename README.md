@@ -9,8 +9,7 @@ Inspired by [mezz's similar mod](https://github.com/mezz/ModNameTooltip) for For
 
 This is a client-side mod. The server doesn't need to have it installed.
 
-![](https://i.imgur.com/Qj5ew4U.png)
-
+![](https://vladmarica.com/assets/minecraft/mod-name-tooltips.png)
 
 ### Supported Minecraft Versions
 * **1.19.2** & **1.19.4**

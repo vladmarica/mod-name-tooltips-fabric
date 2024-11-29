@@ -1,6 +1,7 @@
 # Mod Name Tooltips [Fabric] 
 
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/mod-name-tooltips-fabric?style=for-the-badge&logo=modrinth&color=rgb(27%2C%20217%2C%20106)&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Fmod-name-tooltips-fabric)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/mod-name-tooltips-fabric?style=for-the-badge&logo=modrinth&color=rgb(27%2C%20217%2C%20106))](https://modrinth.com/mod/mod-name-tooltips-fabric)
+
 
 A [Fabric](https://fabricmc.net/) mod for Minecraft that simply adds mod names to item tooltips.
 

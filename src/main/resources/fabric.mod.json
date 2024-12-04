@@ -16,6 +16,9 @@
 	"entrypoints": {
 		"client": [
 			"com.vladmarica.modnametooltips.ModNameTooltips"
+		],
+		"modmenu": [
+			"com.vladmarica.modnametooltips.integ.ModMenuIntegration"
 		]
 	},
 	"mixins": [],
@@ -23,7 +26,8 @@
 		"fabricloader": ">=0.16",
 		"minecraft": "1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"cloth-config": ">=11.1.118"
 	},
 	"suggests": {}
 }
